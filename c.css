@@ -1,0 +1,45 @@
+#duty > input {
+	width: 200px;
+}
+#duty > span {
+	margin-left: 20px;
+}
+#graphInput,
+#graphOutput{
+	position: absolute;
+	width:  406px;
+	height: 206px;
+	box-sizing: border-box;
+	border: 2px solid gray;
+	margin-top: 20px;
+	top: 4em;
+}
+
+.dotInput {
+	display: inline-block;
+	position: relative;
+	width: 	2px;
+	height: 2px;
+	background-color: red;
+}
+
+.dotInput:first-of-type:before {
+	display: inline-block;
+	position: absolute;
+	content: 'Input';
+	top: -1em;
+}
+
+.dotOutput {
+	display: inline-block;
+	position: relative;
+	width: 	2px;
+	height: 2px;
+	background-color: blue;
+}
+
+.dotOutput:first-of-type:before {
+	display: inline-block;
+	position: absolute;
+	content: 'Output';
+}
