@@ -62,6 +62,4 @@ function oscilator(){
 		dotsOut[201].remove();
 	}
 
-	//document.getElementById('led').style.backgroundColor=color;
-
 };
